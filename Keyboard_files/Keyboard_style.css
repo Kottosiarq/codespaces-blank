@@ -1,0 +1,85 @@
+header {
+    background-color: rgb(214, 213, 225);
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(38, 37, 37, 0.853);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(225, 225, 237);
+    cursor: cell;
+}
+
+button {
+    background-color: rgba(217, 212, 222, 0.971);
+    border-color:rgba(255, 255, 255, 0.15);
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(130, 128, 128, 0.853);
+    padding: 0.25% 1.5%;
+    text-align: center;
+    border-radius: 2px;
+    border-width: 4px;
+    transform: translateY(2px);
+    cursor: grab;
+
+    margin-left: 1px
+}
+
+.btnClear {
+    background-color: rgba(228, 189, 189, 0.977);
+    border-color:rgba(235, 227, 227, 0.213);
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(85, 85, 85, 0.853);
+    padding: 6px 20px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0.25% 5%;
+
+    transform: translateY(2px);
+    cursor: grab;
+
+    margin-left: 1px
+}
+
+.screen {
+    background-color:rgba(120, 108, 213, 0.099);
+    border-color: rgb(186, 183, 183);
+    max-width: 100%;
+    padding: 0.5%;
+    border-style: solid;
+    border-width: 1.5px;
+    width: 96%;
+    height: 50%;
+}
+
+a {
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(85, 85, 85, 0.853);
+    border-radius: none;
+}
+
+.keyboard {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(218, 215, 222);
+    padding: 2%;
+    border-radius: 6px;
+    border-style:solid;
+    border-color:rgb(197, 197, 204);
+    border-width: 1.5px;
+    width: 96%;
+    height: 50%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(140, 159, 165);
+    text-align: right;
+    font-family:'Courier New', Courier, monospace;
+}
